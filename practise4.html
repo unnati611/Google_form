@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="practise4.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="box" id="box1">
+
+                <div class="purple"></div>
+                <br>
+                <h1>NATURAL FARM and ECONOMICAL</h1>
+                <h1> PRODUCTS</h1>
+                <p class="quality">PREMIUM farm products for HEALTHY life<br>
+                    Delivery Every FRIDAY and TUESDAY evening</p>
+                <hr>
+                <p class="mail">gandhiunnati611@gmail.com &nbsp;<a href="https://www.google.com/" target="_blank" style="color: blue; font-size: 15px;
+            font-family:sans-serif; font-weight: 400; text-decoration: none;">Switch account</a></p>
+                <img style="display: absolute; margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;"
+                    src="https://www.nicepng.com/png/detail/368-3689549_email-email-png-grey.png" width="3%"
+                    height="1%"><span class="share">Not shared</span>
+
+                <hr>
+                <p class="red">*Indicates required question</p>
+
+            </div>
+            <br>
+            <div class="box" id="box2">
+                <P>Building/Flat number</P>
+                <input class="input" type="text" id="address" placeholder="Your answer" name="name" required
+                    title="plese give your answer">
+                    <p id="flaterror" class="error"></p>
+                <br>
+
+            </div>
+            <br>
+            <div class="box" id="box3">
+                <p>Name</p>
+                <input class="input" type="text" id="name" placeholder="Your answer" name="name" required
+                    title="plese give your answer">
+                    <p id="namerror" class="error"></p>
+                <br>
+            </div>
+            <br>
+            <div class="box" id="box4">
+                <p>Phone number</p>
+                <input class="input" type="number" id="number" placeholder="Your answer" name="number" required
+                    title="plese give your answer">
+                    <p id="numerror" class="error"></p>
+                <br>
+            </div>
+            <br>
+            <div class="box" id="box5">
+                <p>VEGETABLES/kg Prices.A++ Grade FRESH and PREMIUM</p>
+                <ul class="veg">
+                    <li><input type="checkbox" class="checkbox" name="vege">Tomato</li>
+                    <li><input type="checkbox" class="checkbox" name="vege">Tomato</li>
+                    <li><input type="checkbox" class="checkbox" name="vege">Beans</li>
+                    <li><input type="checkbox" class="checkbox" name="vege">Beans</li>
+                    <li><input type="checkbox" class="checkbox" name="vege">Beans</li>
+                    <li><input type="checkbox" class="checkbox" name="vege">Carrot</li>
+                    <li><input type="checkbox" class="checkbox" name="vege">Carrot</li>
+                    <li><input type="checkbox" class="checkbox" name="vege">Beet root</li>
+                    <li><input type="checkbox" class="checkbox" name="vege">Potato</li>
+                    <li><input type="checkbox" class="checkbox" name="vege">Raddish</li>
+                    <li><input type="checkbox" class="checkbox" name="vege">Drum stick 30/ 6 number</li>
+                    <li><input type="checkbox" class="checkbox" name="vege">Drum stick 30/ 6 number</li>
+                    <li><input type="checkbox" class="checkbox" name="vege">Cabbage</li>
+                    <li><input type="checkbox" class="checkbox" name="vege">Cucumber</li>
+                    <li><input type="checkbox" class="checkbox" name="vege">lady finger</li>
+                    <li><input type="checkbox" class="checkbox" name="vege">Onion </li>
+                    <li><input type="checkbox" class="checkbox" name="vege">Garlic</li>
+                    <li><input type="checkbox" class="checkbox" name="vege">Chilly</li>
+                    <li><input type="checkbox" class="checkbox" name="vege">Bottle gourd</li>
+
+                </ul>
+            </div>
+            <br>
+            <div class="box" id="box6">
+                <p>LEAFY VEGETABLES-A++ Grade FRESH and PREMIUM</p>
+                <ul class="veg">
+
+                    <li><input type="checkbox" class="checkbox" name="vege">Corriender</li>
+                    <li><input type="checkbox" class="checkbox" name="vege">Sabbakki leaves</li>
+                    <li><input type="checkbox" class="checkbox" name="vege">Corriender</li>
+                    <li><input type="checkbox" class="checkbox" name="vege">Methi</li>
+                    <li><input type="checkbox" class="checkbox" name="vege">Palak</li>
+                    <li><input type="checkbox" class="checkbox" name="vege">Curry leaves</li>
+                    <li><input type="checkbox" class="checkbox" name="vege">mint</li>
+
+
+                </ul>
+            </div>
+            <br>
+            <div class="box" id="box7">
+                <P>FRUITES-A++ Grade FRESH and PREMIUM</P>
+                <ul class="veg">
+                    <li><input type="checkbox" class="checkbox" name="fruit">Pineapple</li>
+                    <li><input type="checkbox" class="checkbox" name="fruit">Apple</li>
+                    <li><input type="checkbox" class="checkbox" name="fruit">Avocado</li>
+                    <li><input type="checkbox" class="checkbox" name="fruit">Banana</li>
+                    <li><input type="checkbox" class="checkbox" name="fruit">Pappaya</li>
+                    <li><input type="checkbox" class="checkbox" name="fruit">Orange</li>
+                    <li><input type="checkbox" class="checkbox" name="fruit">Mosambi</li>
+                    <li><input type="checkbox" class="checkbox" name="fruit">Mango</li>
+                    <li><input type="checkbox" class="checkbox" name="fruit">Watermelon</li>
+                    <li><input type="checkbox" class="checkbox" name="fruit">Pomogranate</li>
+
+            </div>
+            <br>
+            <div class="submit">
+                <button id="btn" onclick="submit()" class="btn"> Submit</button>
+                <button id="cbtn" class="clear"> Clear form</button>
+            </div>
+            <div class="end">
+                <p> Never submit passwords through Google Forms.</p>
+                <p> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;This content is neither created nor endorsed by Google. Report
+                    Abuse - Terms of Service - Privacy Policy</p>
+
+            </div>
+            <div class="last">
+                <p> Google Forms</p>
+            </div>
+        </div>
+    </div>
+    <script src="practise4.js"></script>
+</body>
+
+</html>
